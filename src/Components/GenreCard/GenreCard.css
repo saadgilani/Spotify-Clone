@@ -1,0 +1,32 @@
+.genreCard{
+    display: flex;
+    background-color: rgb(26, 25, 25);
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.genreImg{
+   
+    height: 80%;
+    width: 80%;
+    /* transform: rotate(45deg); */
+}
+.genreCard:hover{
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+    padding: 20px;
+}
+.crdtle{
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+}

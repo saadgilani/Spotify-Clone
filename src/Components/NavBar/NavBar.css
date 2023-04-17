@@ -1,0 +1,39 @@
+.navBar {
+    background-color: black;
+    display: flex;
+    padding: 29px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    opacity: 0.4;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .navBar:hover {
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+  }
+  .navBarLeftButtons {
+    margin-right: 60%;
+  }
+  .navBarButton {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  .profileBtn {
+    padding: 5px 10px;
+    border-radius: 20%;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+  }
+  .navBarRightBtns{
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+  }

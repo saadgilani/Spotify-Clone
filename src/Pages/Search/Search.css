@@ -1,0 +1,101 @@
+.searchPage{
+    margin-bottom: 200px;
+    background-color: black;
+    height: 100%;
+    padding: 40px;
+}
+.cardDisplay{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   row-gap: 20px;
+    padding: 80px;
+ 
+}
+.searchBrowseAll{
+    margin-top: 40px;
+}
+.searchContainer {
+    width: 82%;
+    height: auto;
+    background-color: #1a1a1a;
+    float: right;
+    padding: 1rem;
+    /* display: flex;
+      justify-content: center;
+      align-items: center; */
+    /* flex-wrap: wrap; */
+    /* margin: auto; */
+    /* padding: 5rem 0rem; */
+  }
+  
+    
+    
+    
+    
+  .browseAll > h1 {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .serachLink{
+      text-decoration: none;
+  }
+  .searchCard {
+    width: 185px;
+    height: 190px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .searchCardName{
+      color: white;
+      margin-left: 1rem;
+  }
+  /* .searchImageBox{
+      position: relative;
+      width: fit-content;
+      background-color: yellowgreen;
+  } */
+  .searchCardImage {
+    position: absolute;
+    bottom: -11px;
+    right: -16px;
+    /* top: 45px; */
+    width: 90px;
+    height: 90px;
+    transform: rotate(-57deg);
+    /* overflow: hidden; */
+  }
+  .frame1{
+      background-color: #7358FF;
+  }
+  .frame2{
+      background-color: #1E3264;
+  }
+  .frame3{
+      background-color: #E8115B;
+  }
+  .frame4{
+      background-color: #E13300;
+  }
+  .frame5{
+      background-color: #148A08;
+  }
+  .frame6{
+      background-color: #BC5900;
+  }
+  .frame7{
+      background-color: #B02897;
+  }
+  .frame8{
+      background-color: #8D67AB;
+  }
+  .frame9{
+      background-color: #056952;
+  }
+  .frame10{
+      background-color: #E91429;
+  }

@@ -1,0 +1,49 @@
+.main2 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+.topdiv{
+  background-color: black;
+}
+.card2 {
+  background: linear-gradient(to bottom, #3333ff 0%, #666699 100%);
+  border-radius: 10px;
+  width: 430px;
+  min-width: 430px;
+  height: 280px;
+  overflow: hidden;
+  padding: 1.2rem;
+  margin-left: 20px;
+}
+.playIcon2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #39aa24;
+  position: absolute;
+  opacity: 0;
+  margin-top: -70px;
+  margin-left: 330px;
+  color: black;
+}
+.card2:hover .playIcon2 {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+.likedSongs {
+  font-size: 40px;
+  margin-top: 160px;
+  margin-left: -15px;
+}
+.palyHeading {
+  margin-bottom: 10px;
+}
+.flexcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 10px;
+}

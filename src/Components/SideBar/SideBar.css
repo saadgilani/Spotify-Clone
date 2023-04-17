@@ -1,0 +1,47 @@
+.sideBar{
+ background-color: black;
+ height: 86%;
+ width: 260px;
+ resize:horizontal;
+ overflow:auto;
+ min-width: 260px;
+ max-width: 300px;
+ position: fixed;
+ z-index: 10;
+}
+.spotifyLogo{
+    margin-top: 20px;
+    height: 50px;
+    width: 170px;
+    margin-right: 80px;
+}
+.sideBarButtonSet{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.sideBarButton{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+.sideBarButtonSet2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.playListSet{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.playList{
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 4px;
+    color: whitesmoke;
+}
+.sideBarText{
+    margin-left: 20px;
+}

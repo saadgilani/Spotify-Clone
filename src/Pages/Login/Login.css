@@ -1,0 +1,106 @@
+.Login_title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: black;
+  width: 50%;
+  margin-top: 15px;
+}
+.Login_heading {
+  color: black;
+}
+.or_line {
+  margin-top: 2rem;
+}
+.mainflex {
+  display: flex;
+}
+.imgSpotify {
+  margin-left: 30px;
+  margin-right: -70px;
+  width: 50px;
+  height: 50px;
+}
+.bottom_line {
+  display: table;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin: 0px auto 1em;
+  color: rgb(127, 127, 127);
+  position: relative;
+  text-align: center;
+  width: 31%;
+}
+.Login_container {
+  align-items: center;
+}
+.header_container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom_line::before,
+.bottom_line::after {
+  border-top: 1px solid rgb(51, 49, 49);
+  content: "";
+  display: table-cell;
+}
+
+.formField {
+  width: 450px;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.form_label {
+  display: flex;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.input_field {
+  width: 450px;
+  font-size: 1rem;
+  border: none;
+  height: 45px;
+  color: #6a6a6a;
+  padding-left: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #6a6a6ac4;
+}
+.error_message {
+  display: flex;
+  font-size: 14px;
+  margin: 0.3rem;
+  color: red;
+}
+.Login_text {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.Login_text > a {
+  color: rgb(0, 188, 0);
+}
+.button_box {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.Login_botton {
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #1ed760;
+  padding: 1rem 2.5rem;
+  color: black;
+  font-weight: 600;
+  border-radius: 500px;
+}
+.Login_botton:hover {
+  padding: 1.1rem 2.7rem;
+}
+.login_text {
+  color: #000000;
+  margin-bottom: 30px;
+  margin-top: 10;
+}
+.linktologin {
+  color: #1ed760;
+}

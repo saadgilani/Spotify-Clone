@@ -1,0 +1,186 @@
+.playlist_page {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+  background-image: linear-gradient(#383c3e, rgb(46, 45, 45));
+  float: right;
+}
+.playlist_container {
+  display: flex;
+  justify-content: flex-start;
+  background-image: linear-gradient(rgb(197, 201, 201), #383c3e);
+  padding: 3rem;
+  padding-top: 6rem;
+}
+.playlist_Image {
+  width: 230px;
+  height: 230px;
+}
+.playlist_frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+.playlist_name {
+  color: white;
+  font-size: 0.875rem;
+}
+.playlist_title {
+  color: white;
+  font-size: 6rem;
+  width: 100%;
+  margin: 0.08em 0px 0.12em;
+}
+.playlist_text {
+  color: white;
+  font-size: 0.9rem;
+}
+.playlist_text > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.playlist_playbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3rem;
+}
+.playlist_playIcon {
+  width: 70px;
+  margin-top: 2rem;
+}
+.playlist_icon_ {
+  display: flex;
+  align-items: center;
+}
+.playlist_3dot {
+  font-size: 3rem;
+  margin-left: 3rem;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.playlist_table {
+  padding: 3rem;
+  width: 100%;
+  color: white;
+}
+.playlist_heading {
+  height: 60px;
+}
+.playlist_column {
+  height: 60px;
+  border-top: 1px solid rgba(255, 255, 255, 0.361);
+  color: rgba(255, 255, 255, 0.748);
+}
+.songss {
+  padding: 30px;
+  
+}
+
+.songss .title {
+  font-size: 18px;
+  color: white;
+}
+
+.songss .title span {
+  margin-left: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+.songss .songs {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
+  padding-bottom: 5px;
+}
+
+.songss .songs.active,
+.songss .songs.active .song .section .songName .songSpan {
+  color: white !important;
+}
+
+.songss .songs .count {
+  margin-right: 10px;
+}
+
+.songss .songs .song {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 5px;
+}
+
+.songss .songs .song .imgBox {
+  width: 45px;
+  min-width: 45px;
+  height: 45px;
+  border-radius: 0.5em;
+  background-color: #848484;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.songss .songs .song .imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.songss .songs .song .section {
+  display: flex;
+  width: 100%;
+}
+
+.songss .songs .song .section .songName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.songss .songs .song .section .songName .songSpan {
+  margin-left: 0;
+  font-size: 12px;
+}
+
+.songss .songs .song .section .hits {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.songss .songs .song .section .hits p {
+  margin: 0 20px;
+}
+
+.songss .songs .song .section .hits p:nth-child(1) {
+  margin-left: 0;
+}
+
+.songss .songs .song .section .hits .favourite i {
+  color: #49e12e !important;
+  filter: drop-shadow(0px 0px 4px #49e12e);
+}
+
+.songss .songs:hover,
+.songss .songs:hover .song .section .songName .songSpan {
+  color: #bcbaba;
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.songsss .songs:hover .song .imgBox img {
+  transform: scale(1.2);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

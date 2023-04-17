@@ -1,0 +1,27 @@
+.baseComponentsPage {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "sideBar navBar"
+      "sideBar mainContent"
+      "sideBar mainContent";
+    height: 100%;
+  }
+  
+  .navBar2 {
+    grid-area: navBar;
+  }
+  
+  .sideBar2 {
+    grid-area: sideBar;
+  }
+  
+  .mainContent2 {
+    grid-area: mainContent;
+  }
+
+  .musicPlayer2{
+    grid-area: musicPlayer;
+  }
+  
